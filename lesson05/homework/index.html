@@ -4,121 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The World of Mountains</title>
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="wrapper">
-
         <!-- Start header -->
-        <header class="header">
+        <header class="topnav">
             <div class="container">
-                <nav>
-                    <a class="topnav" href="#Directions">Directions</a>
-                    <a class="topnav" href="#News">News</a>
-                    <a class="topnav" href="#Reviews">Reviews</a>
-                    <a class="topnav" href="#About-us">About Us</a>
-                    <a class="topnav" href="#Contacts">Contacts</a>
-                </nav>
-                <h1 class="title header__title">THE WORLD OF MOUNTAINS - <br>YOUR LIFECHANGING MOUNTAIN EXPERIENCE</h1>
+                <a class="link topnav__link" href="#">Home</a>
+                <a class="link topnav__link" href="#">About me</a>
+                <a class="link topnav__link" href="#">Skills</a>
+                <a class="link topnav__link" href="#">Portfolio</a>
+                <a class="link topnav__link" href="#">Contacts</a>
+                <hr>
             </div>
         </header>
         <!-- End header -->
+        <main class="main">
+            <!-- Start first screen -->
+            <section class="first-screen">
+                <div class="container">
+                    <h1 class="name first-screen__name">Denis Novik</h1>
+                    <img src="./images/photo.jpg" alt="Photo" width="600">
+                </div>
+            </section>
+            <!-- End first screen -->
 
-        <!-- Start aside menu -->
-        <aside class="aside">
+            <!-- Start about -->
+            <section class="about">
+                <div class="container">
+                    <h2 class="title about__title">About me</h2>
+                    <p class="text">Hi, I'm Denis - UX/UI designer from Minsk. <br>
+                        I'm interested in design and everything connected with it.</p>
+                    <p class="text">I'm studying at courses "Web and mobile design <br>
+                        interfaces" in IT-Academy.</p>
+                    <p class="text">Ready to implement excellent projects <br>
+                        with wonderful people.</p>
+                </div>
+            </section>
+            <!-- End about -->
+
+            <!-- Start skills -->
+            <section class="skills">
+                <div class="container">
+                    <!-- Start Photoshop -->
+                    <div class="raiting skills__raiting">
+                        <h2 class="title skills__title">Skills</h2>
+                        <p class="text">I work in such programs as</p>
+                        <img class="logo skills__logo" src="./images/Ps.png" alt="Photoshop logo">
+                        <h4 class="program-name skills__program-name">Adobe Photoshop</h4>
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                    </div>
+                    <!-- End Photoshop -->
+                    <!-- Start Illustrator -->
+                    <div class="raiting skills__raiting">
+                        <img class="logo skills__logo" src="./images/Ai.png" alt="Adobe Illustrator logo">
+                        <h4 class="program-name skills__program-name">Adobe Illustrator</h4>
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                    </div>
+                    <!-- End Illustrator -->
+                    <!-- Start After Effects -->
+                    <div class="raiting skills__raiting">
+                        <img class="logo skills__logo" src="./images/Ae.png" alt="Adobe After Effects logo">
+                        <h4 class="program-name skills__program-name">Adobe After Effects</h4>
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-empty" src="./images/star-empty.svg" alt="Star-raiting">
+                    </div>
+                    <!-- End After Effects -->
+                    <!-- Start Figma -->
+                    <div class="raiting skills__raiting">
+                        <img class="logo skills__logo" src="./images/Figma.png" alt="Figma logo">
+                        <h4 class="program-name skills__program-name">Figma</h4>
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                        <img class="star-full" src="./images/star-full.svg" alt="Star-raiting">
+                    </div>
+                    <!-- End Figma -->
+                </div>
+            </section>
+            <!-- End Skills -->
+
+            <!-- Start Portfolio -->
+            <section class="portfolio">
+                <div class="container">
+                    <h2 class="title portfolio__title">Portfolio</h2>
+                    <div class="fasion-store">
+                        <img class="project portfolio__project" src="./images/Fashion-Store.png"
+                            alt="Online fasion store - Homepage"><br>
+                        <u>Online fasion store - Homepage</u>
+                    </div>
+                    <div class="reebok-store">
+                        <img class="project portfolio__project" src="./images/reebok-web.png"
+                            alt="Reebok Store - Concept"><br>
+                        <u>Reebok Store - Concept</u>
+                    </div>
+                    <div class="braun">
+                        <img class="project portfolio__project" src="./images/braun-landing.png"
+                            alt="Braun Landing Page - Concept"><br>
+                        <u>Braun Landing Page - Concept</u>
+                    </div>
+                </div>
+            </section>
+            <!-- End Portfolio -->
+        </main>
+
+        <!-- Start Contacts -->
+        <footer class="contacts">
             <div class="container">
-                <ul class="menu aside__menu">
-                    <li class="link aside__menu__link"><b><a href="#Hiking" style="font-size: 25px;">Hiking</a></b></li>
-                    <li class="link aside__menu__link"><b><a href="#Climbing" style="font-size: 25px;">Climbing</a></b>
-                    </li>
-                    <li class="link aside__menu__link"><b><a href="#Freeride" style="font-size: 25px;">Freeride</a></b>
-                    </li>
-                    <li class="link aside__menu__link"><b><a href="#Corporate-hikes" style="font-size: 25px;">Corporate
-                                Hikes</a></b></li>
-                    <li class="link aside__menu__link"><b><a href="#Authors-tours" style="font-size: 25px;">Author's
-                                tours</a></b></li>
-                    <li class="link aside__menu__link"><b><a href="#Expedition-to-8000"
-                                style="font-size: 25px;">Expredition to 8000</a></b></li>
-                </ul>
-            </div>
-        </aside>
-        <!-- End aside menu -->
-
-        <!-- Start first section -->
-        <section class="section-general">
-            <div class="container">
-                <h2 class="title section-general__title">
-                    Why you should go to the mountains with us:
-                </h2>
-                <p class="text" style="font-size: 20px;">We are already trusted by more than 12500 members and at 97.8%
-                    we justify this trust</p>
-            </div>
-        </section>
-        <!-- End first section -->
-
-        <!-- Start second section -->
-        <section class="section-family">
-            <h2 class="title section-family__title">
-                The World of Mountains - family
-            </h2>
-            <p class="text" style="font-size: 20px;"><img src="./my-additional-project/images/family.png"
-                    alt="Family picture">
-                People who are madly in love with the mountains and ready to pass their love to others. This
-                is what really matters, and what makes any service human. These are the team leaders, who live for the
-                mountains. They know how to conduct the program safely and give the members a maximum of pleasant
-                memories. Perhaps the best team leaders work with us.
-                These are the managers, who actively go to the mountains. Not just by instructions, but from their
-                experience, they prepare the members and share their practical knowledge.</p>
-            <p class="text" style="font-size: 20px;"><img src="./my-additional-project/images/hiking.png"
-                    alt="Hiking picture">
-                We always try to do a little more than we promise. For example, to present useful
-                pleasantness in memory of a campaign. We also form a network of partners, who have discounts (from 10%)
-                for our members. More than 20 hiking equipment stores and climbing walls are at your service.</p>
-            <p class="text" style="font-size: 20px;"><img src="./my-additional-project/images/mount.png"
-                    alt="Mountain picture">
-                Who, but us? We're serious about kindness and happiness. It's our contribution to a better
-                world. We organize charity hikes for orphans and disadvantaged children, so that they can see a
-                different world, a more honest and open one. And to make it cleaner, we organize eco-camps as well. In
-                2019 alone, with our combined efforts, we took over 2,000 pounds of trash off the mountains. Join us!
-            </p>
-        </section>
-        <!-- End second section -->
-
-        <!-- Start footer -->
-        <footer class="footer">
-            <div class="container">
-                <h3 class="title footer__title">WORKING SCHEDULE</h3>
-                <p class="text" style="font-size: 15px;">Monday - Friday from 9:00 to 18:00</p>
-                <p class="text" style="font-size: 15px;">Saturday, Sunday - duty mode</p>
-                <p class="text" style="font-size: 15px;">We try to answer you 24/7, but please note that this is not
-                    always possible and consultants need weekends too :)</p>
-                <p class="text" style="font-size: 15px;"><b>Do you have any quastions? Please, write to us:</b></p>
-                <input class="input" type="text" placeholder="First name">
-                <input class="input" type="text" placeholder="Last name">
-                <br><br>
-                <input class="input" type="text" placeholder="Phone number" size="46">
-                <br><br>
-                <select name="Country" id="Country">
-                    <option value="Andorra">Andorra</option>
-                    <option value="Spain">Spain</option>
-                    <option value="France">France</option>
-                    <option value="Italy">Italy</option>
-                    <option value="Belgium">Belgium</option>
-                    <option value="Netherlands">Netherlands</option>
-                    <option value="Germany">Germany</option>
-                    <option value="Ukraine">Ukraine</option>
-                    <option value="Czech Republic">Germany</option>
-                </select>
-                <br><br>
-                <input class="input" type="email" placeholder="E-mail" size="46">
-                <br><br>
-                <input class="input" type="text" placeholder="Your message" size="46px" height="200px">
-                <br><br>
-                <button type="submit">Submit</button>
-                <!-- End footer -->
+                <h2 class="title footer_title">Contacts</h2>
+                <p class="text">Want to know more or just chat? <br>
+                    You are welcome!</p>
+                <button class="message">Send message</button>
+                <div class="social-media contacts__social-media">
+                    <a href="">
+                        <img src="./images/linkedin.svg" alt="Linkedin logo">
+                    </a>
+                </div>
+                <div class="social-media contacts__social-media">
+                    <a href="">
+                        <img src="./images/instagram.svg" alt="Instagram logo">
+                    </a>
+                </div>
+                <div class="social-media contacts__social-media">
+                    <a href="">
+                        <img src="./images/behance.svg" alt="Behance logo">
+                    </a>
+                </div>
+                <div class="social-media contacts__social-media">
+                    <a href="">
+                        <img src="./images/dribbble.svg" alt="Dribble logo">
+                    </a>
+                </div>
+                <p class="text">Like me on <br>
+                    Linkedin, Instagram, Behance, Dribble</p>
             </div>
         </footer>
+        <!-- End Contacts -->
     </div>
 </body>
 
