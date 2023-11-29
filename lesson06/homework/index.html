@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- Start name -->
+            <form action="" class="input">
+                <div class="input__name">
+                    <label for="inp-n">
+                        <span class="text">Повне ім'я </span>
+                        <input id="inp-n" type="text" required>
+                    </label>
+                </div>
+                <br>
+                <!-- End name -->
+                <!-- Start email -->
+                <div class="input__email">
+                    <label for="inp-e">
+                        <span class="text">E-mail </span>
+                        <input id="inp-e" type="text" required>
+                    </label>
+                </div>
+                <br>
+                <!-- End email -->
+                <!-- Start password -->
+                <div class="input__pass">
+                    <label for="inp-p">
+                        <span class="text">Пароль </span>
+                        <input id="inp-p" type="password" required autocomplete="current-password">
+                    </label>
+                </div>
+                <br>
+                <div class="input__pass">
+                    <label for="inp-pp">
+                        <span class="text">Пароль ще раз </span>
+                        <input id="inp-pp" type="password" value="" required autocomplete="current-password">
+                    </label>
+                </div>
+                <br>
+                <!-- End password -->
+                <!-- Start gender -->
+                <div class="input__gender">
+                    <label for="inp-gen-m">
+                        <span class="text">Стать </span>
+                        <input id="inp-gen-m" name="gender" type="radio">
+                        <span class="text">чоловіча</span>
+                    </label>
+                    <label for="inp-gen-w">
+                        <input id="inp-gen-w" name="gender" type="radio">
+                        <span class="text">жіноча</span>
+                    </label>
+                </div>
+                <br>
+                <!-- End gender -->
+                <!-- Start age -->
+                <div class="input__age">
+                    <label for="inp-a">
+                        <span class="text">Вік </span><input id="inp-a" type="number" required>
+                    </label>
+                </div>
+                <br>
+                <!-- End age -->
+                <!-- Start course -->
+                <div class="input__course">
+                    <label>
+                        <span class="text">Курс </span>
+                        <select class="input_crs" name="" id="">
+                            <option value="courses">-=Виберіть курс=-</option>
+                            <option value="courses">Front-End</option>
+                            <option value="courses">Back-End</option>
+                            <option value="courses">Project Management</option>
+                            <option value="courses">QA Manual</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
+                <!-- End course -->
+                <!-- Start address -->
+                <div class="input__address">
+                    <label for="addr">
+                        <span class="text">Повна адреса</span>
+                        <textarea name="" id="addr" cols="30" rows="10"
+                            placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+                    </label>
+                </div>
+                <br>
+                <!-- End address -->
+                <!-- Start confirmation -->
+                <div class="input__confirmation">
+                    <label for="">
+                        <input type="checkbox" required>
+                        <span class="text">Я погоджуюсь з обробкою персональних даних</span>
+                    </label>
+                </div>
+                <br>
+                <!-- End confirmation -->
+                <!-- Start buttons -->
+                <div class="input_buttons">
+                    <button type="reset">Очистити форму</button>
+                    <button type="submit">Зареєструватись</button>
+                </div>
+                <!-- End buttons -->
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
