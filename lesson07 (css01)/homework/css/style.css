@@ -1,0 +1,159 @@
+/* General styles start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    color: #070707;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* General styles end */
+
+
+/* Header styles start */
+
+.header__container {
+    max-width: 1200px;
+    max-height: 80px;
+    padding: 0px 120px;
+    margin: 30px 0;
+}
+
+.link {
+    color: #828282;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header__link--active {
+    color: #070707;
+}
+
+hr {
+    width: 970px;
+    height: 1px;
+    position: absolute;
+    top: 80px;
+}
+
+/* Header styles end */
+
+/* Hero styles start */
+h1 .hero .container .hero__title {
+    /*Check it !!!!!!!!!!!!!  */
+    font-size: 48px;
+    font-weight: 700;
+    margin: 25px 0;
+    display: block;
+}
+
+.hero__img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+/* Hero styles end */
+
+/* About styles start */
+
+.about__container {
+    gap: 30px;
+}
+
+.text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 0;
+}
+
+.about__title {
+    margin: 35px;
+}
+
+.about {
+    background-color: #F6F6F6;
+}
+
+/* About styles end */
+
+/* Skills styles start */
+
+.sub-container__title {
+    color: #828282;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+}
+
+.sub-container {
+    display: inline;
+}
+
+/* Skills styles end */
+
+/* Portfolio styles start */
+
+.portfolio__title {
+    margin: 50px 0;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.portfolio__text {
+    text-decoration-line: underline;
+    margin: 40px 0 70px 0;
+}
+
+/* Portfolio styles end */
+
+/* Contacts styles start */
+
+.contacts__button {
+    padding: 16px;
+    border-radius: 22px;
+    background-color: #070707;
+    color: #F6F6F6;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.social-media__text {
+    color: #828282;
+    font-size: 14px;
+}
+
+/* Contacts styles end */
