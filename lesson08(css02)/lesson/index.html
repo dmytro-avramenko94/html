@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        /* Пріоритетні звернення до елементів */
+
+
+
+        /* Псевдоелементи */
+
+
+
+
+        /* НЕ пріоритетні звернення до елементів */
+        h1,
+        h2,
+        h3 {}
+
+        .hero>.title {}
+
+        /* Звернення до всіх елементів під */
+        .hero>.title {}
+
+        /* Звернення до першого елементу під */
+        .hero+.title {}
+    </style>
+
+    <div class="wrapper">
+        <h1>Selector</h1>
+
+        <div class="container">
+
+        </div>
+
+        <main class="main">
+            <section class="hero">
+                <h1 class="title red">Test</h1>
+                <h1 class="title">Test</h1>
+                <p class="text"></p>
+                <div class="box">
+                    <h1 class="title">test</h1>
+                </div>
+
+                <button class="button">Start</button>
+            </section>
+
+            <section class="section">
+                <h1 class="section__title">Test</h1>
+            </section>
+        </main>
+
+
+    </div>
+</body>
+
+</html>
