@@ -1,4 +1,7 @@
 /* Global styles */
+:root {
+    --line-color: #828282;
+}
 
 * {
     margin: 0;
@@ -42,12 +45,6 @@ body {
 
 }
 
-hr {
-    display: block;
-    width: 970px;
-    height: 1px;
-    background-color: #828282;
-}
 
 /* Чому це не працює як лінія?
 .header__nav::after {
@@ -61,10 +58,9 @@ hr {
 .header__container {
     display: flex;
     align-items: center;
-    max-width: 1200px;
-    height: 80px;
-    padding: 0px 120px;
-    margin: 30px auto;
+    border-bottom: 1px solid var(--line-color);
+    padding: 25px 0;
+    margin-bottom: 12px;
 }
 
 .link {
