@@ -1,0 +1,18 @@
+.container {
+    width: 227.5px;
+    background-color: #D9D9D9;
+    height: 47.3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 35.9px;
+    height: 31.4px;
+    background-color: #BC0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
