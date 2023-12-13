@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root {
+            --box-grid: repeat(2, 100rem) repeat(3, 230rem) 1fr;
+
+        }
+
+        html {
+            font-size: 1px;
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: var(--box-grid);
+            /* grid-template-rows: repeat(3, 100rem); */
+            /* grid-template: var(--box-grid) / repeat(3, 100rem); */
+            gap: 20rem;
+        }
+
+        .box__item {
+            height: 100rem;
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="box__item"></div>
+        <div class="box__item"></div>
+        <div class="box__item"></div>
+        <div class="box__item"></div>
+        <div class="box__item"></div>
+        <div class="box__item"></div>
+
+    </div>
+</body>
+
+</html>
