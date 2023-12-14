@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+
+        .row {
+            width: 600px;
+            height: 600px;
+            background-color: grey;
+            position: relative;
+        }
+
+        .box:first-child {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .box:nth-child(2) {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .box:nth-child(3) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .box:nth-child(4) {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .box:last-child {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
