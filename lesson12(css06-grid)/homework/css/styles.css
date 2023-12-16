@@ -1,0 +1,228 @@
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: 400 36px/normal 'Delius Unicase', sans-serif;
+    --item-author-font: 500 20px/normal 'Roboto', sans-serif;
+    --item-data-font: 400 20px/normal 'Roboto', sans-serif;
+
+    /* Variable colors */
+    --white-color: #FFFFFF;
+    --grey-color: #E0E0E0;
+    --black-color: #000000;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.title {
+    font: var(--title-font);
+    color: var(--black-color);
+}
+
+.item__author {
+    font: var(--item-author-font);
+    color: var(--white-color);
+}
+
+.item__data {
+    font: var(--item-data-font);
+    color: var(--grey-color);
+}
+
+.item__sub-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Cities styles */
+
+.cities {
+    display: flex;
+    justify-content: center;
+}
+
+.cities__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(3, 370px);
+    gap: 30px;
+}
+
+.cities__item {
+    border-radius: 20px;
+    /* background: var(--blure, linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34.11%, rgba(187, 186, 192, 0.26) 62.5%)); */
+    display: flex;
+    align-items: end;
+}
+
+.cities__item:first-child {
+    background-image: url(../img/cities/jezael-melgoza.jpg);
+}
+
+.cities__item:nth-child(2) {
+    background-image: url(../img/cities/tom-w.jpg);
+    grid-column: 2 / 4;
+}
+
+.cities__item:nth-child(3) {
+    background-image: url(../img/cities/johan-mouchet.jpg);
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.cities__item:nth-child(4) {
+    background-image: url(../img/cities/federico-di-dio.jpg);
+    grid-column: 3 / 4;
+}
+
+.cities__item:nth-child(5) {
+    background-image: url(../img/cities/casey-horner.jpg);
+    grid-column: 1 / 2;
+}
+
+.cities__item:last-child {
+    background-image: url(../img/cities/alexander-rotker.jpg);
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+/* Nature styles */
+
+.nature {
+    display: flex;
+    justify-content: center;
+}
+
+.nature__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(4, 370px);
+    gap: 30px;
+}
+
+.nature__item {
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.nature__item:first-child {
+    background-image: url(../img/nature/robert-lukeman.jpg);
+    grid-column: 1 / 2;
+}
+
+.nature__item:nth-child(2) {
+    background-image: url(../img/nature/sean-oulashin.jpg);
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.nature__item:nth-child(3) {
+    background-image: url(../img/nature/john-fowler.jpg);
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.nature__item:nth-child(4) {
+    background-image: url(../img/nature/dave-hoefler.jpg);
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.nature__item:nth-child(5) {
+    background-image: url(../img/nature/leonard-lotte.jpg);
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.nature__item:last-child {
+    background-image: url(../img/nature/rob-mulally.jpg);
+    grid-column: 3 / 4;
+}
+
+/* People styles */
+
+.people {
+    display: flex;
+    justify-content: center;
+}
+
+.people__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(5, 370px);
+    gap: 30px;
+}
+
+.people__item {
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.people__item:first-child {
+    background-image: url(../img/people/pooja-chaudhary.jpg);
+    grid-column: 1 / 2;
+}
+
+.people__item:nth-child(2) {
+    background-image: url(../img/people/dom-hill.jpg);
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.people__item:nth-child(3) {
+    background-image: url(../img/people/seth-doyle.jpg);
+    grid-column: 3 / 4;
+}
+
+.people__item:nth-child(4) {
+    background-image: url(../img/people/devn.jpg);
+    grid-column: 1 / 2;
+}
+
+.people__item:nth-child(5) {
+    background-image: url(../img/people/noah-buscher.jpg);
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.people__item:nth-child(6) {
+    background-image: url(../img/people/seth-doyle-2.jpg);
+    grid-column: 2 / 3;
+}
+
+.people__item:nth-child(7) {
+    background-image: url(../img/people/sincerely-media.jpg);
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+.people__item:nth-child(8) {
+    background-image: url(../img/people/melissa-askew.jpg);
+    grid-area: 4 / 2 / 5 / 4;
+}
+
+.people__item:nth-child(9) {
+    background-image: url(../img/people/brooke-cagle.jpg);
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+.people__item:last-child {
+    background-image: url(../img/people/seth-doyle-2.jpg);
+    grid-column: 3 / 4;
+}
