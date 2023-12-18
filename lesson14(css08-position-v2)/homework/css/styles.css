@@ -27,6 +27,7 @@ html {
 .wrapper {
     max-width: 90rem;
     margin: 0 auto;
+    position: relative;
 }
 
 .container {
@@ -39,6 +40,8 @@ html {
     display: flex;
     align-items: center;
     margin: 0.8125rem 0 4.375rem;
+    background-color: var(--white-color);
+    max-height: 5rem;
 }
 
 .nav {
@@ -74,13 +77,8 @@ html {
     display: flex;
     gap: 1.875rem;
     position: relative;
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
+    display: grid;
+    grid-template-columns: 24.0625rem 1fr;
 }
 
 /* Side-bar styles */
@@ -88,9 +86,10 @@ html {
 .side-bar__container {
     display: flex;
     flex-direction: column;
-    max-width: 24.0625rem;
     gap: 4.375rem;
     padding: 0.625rem;
+    position: sticky;
+    top: 0;
 }
 
 .side-bar__link {
@@ -110,6 +109,14 @@ html {
     display: flex;
     flex-direction: column;
     gap: 4.375rem;
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .main-content__sub-container {
