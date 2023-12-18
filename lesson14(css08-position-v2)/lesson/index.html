@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .light {
+            --bg-color: #fff;
+            --color-text: #000;
+        }
+
+        .dark {
+            --bg-color: #000;
+            --color-text: #fff;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--color-text);
+        }
+
+        .switch {
+            width: 100px;
+            height: 50px;
+            padding: 2px;
+            border: 1px solid;
+            border-radius: 50px;
+            background-color: beige;
+            display: flex;
+        }
+
+        .switch__item {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: var(--color-text);
+        }
+
+        .is-active {
+            justify-content: end;
+            background-color: var(--bg-color);
+        }
+
+        .green p {
+            color: green;
+        }
+    </style>
+
+</head>
+
+<body class="light">
+    <div class="switch">
+        <div class="switch__item"></div>
+    </div>
+    <div class="container">
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, sint? Dicta officiis hic est magnam nulla
+            laborum voluptas incidunt perferendis!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo, minima neque numquam maiores hic ad
+            dolore dolorem fugiat iure a distinctio porro blanditiis, temporibus, et expedita corporis? Voluptatum velit
+            minima ratione quaerat repellat accusamus in cupiditate culpa porro, asperiores amet at veniam aspernatur
+            fugit perferendis ducimus reiciendis ea voluptatibus nemo quidem itaque! Enim sequi nihil iste, voluptate
+            quasi, placeat reiciendis corporis quaerat quia repudiandae, neque atque ex autem ullam eius explicabo
+            architecto nemo maxime. Quis soluta delectus beatae eius similique esse praesentium quos pariatur veniam
+            consectetur reprehenderit quibusdam, dicta eos placeat quasi doloremque unde ratione quidem blanditiis.
+            Architecto, illum!</p>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, sint? Dicta officiis hic est magnam nulla
+            laborum voluptas incidunt perferendis!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo, minima neque numquam maiores hic ad
+            dolore dolorem fugiat iure a distinctio porro blanditiis, temporibus, et expedita corporis? Voluptatum velit
+            minima ratione quaerat repellat accusamus in cupiditate culpa porro, asperiores amet at veniam aspernatur
+            fugit perferendis ducimus reiciendis ea voluptatibus nemo quidem itaque! Enim sequi nihil iste, voluptate
+            quasi, placeat reiciendis corporis quaerat quia repudiandae, neque atque ex autem ullam eius explicabo
+            architecto nemo maxime. Quis soluta delectus beatae eius similique esse praesentium quos pariatur veniam
+            consectetur reprehenderit quibusdam, dicta eos placeat quasi doloremque unde ratione quidem blanditiis.
+            Architecto, illum!</p>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, sint? Dicta officiis hic est magnam nulla
+            laborum voluptas incidunt perferendis!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo, minima neque numquam maiores hic ad
+            dolore dolorem fugiat iure a distinctio porro blanditiis, temporibus, et expedita corporis? Voluptatum velit
+            minima ratione quaerat repellat accusamus in cupiditate culpa porro, asperiores amet at veniam aspernatur
+            fugit perferendis ducimus reiciendis ea voluptatibus nemo quidem itaque! Enim sequi nihil iste, voluptate
+            quasi, placeat reiciendis corporis quaerat quia repudiandae, neque atque ex autem ullam eius explicabo
+            architecto nemo maxime. Quis soluta delectus beatae eius similique esse praesentium quos pariatur veniam
+            consectetur reprehenderit quibusdam, dicta eos placeat quasi doloremque unde ratione quidem blanditiis.
+            Architecto, illum!</p>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, sint? Dicta officiis hic est magnam nulla
+            laborum voluptas incidunt perferendis!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo, minima neque numquam maiores hic ad
+            dolore dolorem fugiat iure a distinctio porro blanditiis, temporibus, et expedita corporis? Voluptatum velit
+            minima ratione quaerat repellat accusamus in cupiditate culpa porro, asperiores amet at veniam aspernatur
+            fugit perferendis ducimus reiciendis ea voluptatibus nemo quidem itaque! Enim sequi nihil iste, voluptate
+            quasi, placeat reiciendis corporis quaerat quia repudiandae, neque atque ex autem ullam eius explicabo
+            architecto nemo maxime. Quis soluta delectus beatae eius similique esse praesentium quos pariatur veniam
+            consectetur reprehenderit quibusdam, dicta eos placeat quasi doloremque unde ratione quidem blanditiis.
+            Architecto, illum!</p>
+    </div>
+
+
+    <script>
+        // Клікабельний елемент
+        const btnSwitch = document.querySelector('.switch')
+        const theme = document.querySelector('.light')
+
+        btnSwitch.addEventListener('click', () => {
+            theme.classList.toggle('dark')
+            btnSwitch.classList.toggle('is-active')
+        })
+
+
+    </script>
+</body>
+
+</html>
