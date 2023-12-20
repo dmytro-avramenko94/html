@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            background-color: aquamarine;
+            border: 1px solid;
+            border-radius: 20px;
+            padding: 20px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .input {
+            border: 2px solid green;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: transparent;
+            color: red;
+            outline: none;
+        }
+
+        .input:focus {
+            border: 2px solid blue;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" class="form">
+        <div class="form__field">
+            <input type="text" placeholder="Name" class="input">
+        </div>
+        <div class="form__field">
+            <input type="text" placeholder="Name" class="input">
+        </div>
+    </form>
+</body>
+
+</html>

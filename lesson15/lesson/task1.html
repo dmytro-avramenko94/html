@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+    <style>
+        .form__checkbox {
+            display: flex;
+        }
+
+        #chak01 {
+            display: none;
+        }
+
+        .form__checkbox-icon {
+            width: 24px;
+            height: 24px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #chak01:checked+label .form__checkbox-icon {
+            background-image: url(./task-img/group-3729.png);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form__checkbox">
+        <input id="chak01" type="checkbox" required>
+        <label class="form__label" for="chak01">
+            <div class="form__checkbox-icon">
+
+            </div>
+            <div class="form__checkbox-text">
+                Тобі є 18 років
+            </div>
+        </label>
+    </div>
+</body>
+
+</html>
