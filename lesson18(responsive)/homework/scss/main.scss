@@ -1,0 +1,13 @@
+@function toRem($size) {
+    @return calc($size / 16px) * 1rem
+}
+
+;
+
+@import url(./reset.scss);
+@import url(./global.scss);
+@import url(./fonts.scss);
+@import url(./colors.scss);
+@import url(./header.scss);
+@import url(./home.scss);
+@import url(./footer.scss);

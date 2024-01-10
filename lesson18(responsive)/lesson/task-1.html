@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            overflow: hidden;
+        }
+
+        .hero {
+            &__container {
+                max-width: 366px;
+                margin: 0 auto;
+            }
+
+            &__btn-container {
+                display: flex;
+                gap: 11px;
+            }
+
+            &__text {
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Social Media Marketing Is The Best Ever</h1>
+                <p class="hero__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ducimus velit
+                    aliquam
+                    eaque nam cum quos numquam dolorem quo temporibus.</p>
+                <div class="hero__btn-container">
+                    <button class="hero__btn">Get it on Google Play</button>
+                    <button class="hero__btn">Downloadon the app store</button>
+                </div>
+                <img class="hero__img" src="./img-mob.png" alt="img">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

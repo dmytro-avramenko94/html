@@ -1,0 +1,122 @@
+.hero {
+    padding-bottom: toRem(70px);
+
+    &__title {
+        margin-top: toRem(70px);
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+.blog {
+    padding-bottom: toRem(70px);
+
+    &__title {
+        margin-bottom: toRem(50px);
+    }
+
+    &__item-categorie {
+        margin-bottom: toRem(30px);
+    }
+
+    &__item-title {
+        margin-bottom: toRem(10px);
+    }
+
+    &__item-date {
+        margin-bottom: toRem(40px);
+    }
+
+    .arrow-r {
+        margin-bottom: toRem(30px);
+    }
+}
+
+.latest-posts {
+    padding-bottom: toRem(20px);
+
+    &__title {
+        margin-bottom: toRem(10px);
+    }
+
+    &__view-container {
+        display: flex;
+        align-items: center;
+        gap: toRem(20px);
+        margin-bottom: toRem(30px);
+    }
+
+    &__item-img {
+        margin-bottom: toRem(25px);
+    }
+
+    &__item-categorie-date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: toRem(25px);
+    }
+
+    &__item-title {
+        margin-bottom: toRem(20px);
+    }
+
+    &__item-description {
+        margin-bottom: toRem(50px);
+    }
+}
+
+.popular {
+    margin-bottom: toRem(70px);
+
+    &__title {
+        margin-bottom: toRem(10px);
+    }
+
+    &__view-container {
+        display: flex;
+        align-items: center;
+        gap: toRem(20px);
+        margin-bottom: toRem(30px);
+    }
+
+    &__item-img {
+        margin-bottom: toRem(25px);
+    }
+
+    &__item-categorie-date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: toRem(15px);
+    }
+
+    &__item-title {
+        margin-bottom: toRem(10px);
+    }
+
+    &__item-description {
+        margin-bottom: toRem(50px);
+    }
+
+    .load {
+        max-width: toRem(180px);
+        padding: toRem(9.5px) toRem(45px);
+    }
+}
+
+.info {
+    margin-bottom: toRem(70px);
+
+    &__title {
+        margin-bottom: toRem(16px);
+    }
+
+    .arrow-r {
+        margin-bottom: toRem(35px);
+    }
+}

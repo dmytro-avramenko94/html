@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Display:wght@400;500;600&display=swap');
+
+// font-family: 'Lato', sans-serif; 400
+// font-family: 'Red Hat Display', sans-serif; 400/500/600
+
+:root {
+
+    --main-title-font: 'Red Hat Display', sans-serif;
+    --main-text-font: 'Lato', sans-serif;
+
+    --hero-title-font: 600 toRem(30px)/toRem(50px) var(--main-title-font);
+    --info-title-font: 600 toRem(24px)/toRem(39.84px) var(--main-title-font);
+    --info-text-font: 600 toRem(18px)/toRem(32px) var(--main-title-font);
+    --heading-h1: 400 toRem(48px)/toRem(64px) var(--main-title-font);
+    --heading-h2: 600 toRem(28px)/toRem(36px) var(--main-title-font);
+    --heading-h3: 500 toRem(22px)/toRem(36.52px) var(--main-title-font);
+    --heading-h5: 400 toRem(16px)/toRem(26.56px) var(--main-text-font);
+    --heading-h6: 400 toRem(16px)/toRem(26.56px) var(--main-text-font);
+    --heading-h7: 700 toRem(16px)/toRem(26.56px) var(--main-text-font);
+
+}
+
+.hero-title-font {
+    font: var(--hero-title-font);
+    color: var(--base-black);
+    letter-spacing: toRem(1.5px);
+}
+
+.info-title-font {
+    font: var(--info-title-font);
+    color: var(--base-black);
+    letter-spacing: toRem(2.4px);
+}
+
+.info-title-font {
+    font: var(--info-text-font);
+    color: var(--grey-700);
+    letter-spacing: toRem(0.9px);
+}
+
+.heading-h1 {
+    font: var(--heading-h1);
+    color: var(--base-black);
+    letter-spacing: toRem(2.4px);
+}
+
+.heading-h2 {
+    font: var(--heading-h2);
+    color: var(--base-black);
+    letter-spacing: toRem(1.4px);
+}
+
+.heading-h3 {
+    font: var(--heading-h3);
+    color: var(--base-black);
+    letter-spacing: toRem(2.2px);
+}
+
+.heading-h5 {
+    font: var(--heading-h5);
+    color: var(--grey-700);
+    letter-spacing: toRem(0.8px);
+}
+
+.heading-h6 {
+    font: var(--heading-h6);
+    color: var(--grey-500);
+    letter-spacing: toRem(1.6px);
+}
+
+.heading-h7 {
+    font: var(--heading-h7);
+    color: var(--base-white);
+    letter-spacing: toRem(1.6px);
+}

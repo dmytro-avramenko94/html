@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .row {
+            display: flex;
+            gap: 15px;
+            padding: 40px 0
+        }
+
+        .box {
+            flex-grow: 1;
+            height: 100px;
+            background: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="bnt-red">Red</button>
+    <button class="bnt-green">Green</button>
+    <button class="bnt-blue">Blue</button>
+    <button class="bnt-black">Black</button>
+
+    <div class="row">
+        <div class="box box-red">Red</div>
+        <div class="box box-green">Green</div>
+        <div class="box box-blue">Blue</div>
+        <div class="box box-black">Black</div>
+    </div>
+
+    <script>
+        let bntRed = document.querySelector('.bnt-red')
+        let boxRed = document.querySelector('.box-red')
+        bntRed.addEventListener('click', () => {
+            boxRed.classList.toggle('red')
+        })
+
+        let bntGreen = document.querySelector('.bnt-green')
+        let boxGreen = document.querySelector('.box-green')
+        bntGreen.addEventListener('click', () => {
+            boxGreen.classList.toggle('green')
+        })
+
+        let bntBlue = document.querySelector('.bnt-blue')
+        let boxBlue = document.querySelector('.box-blue')
+        bntBlue.addEventListener('click', () => {
+            boxBlue.classList.toggle('blue')
+        })
+
+        let bntBlack = document.querySelector('.bnt-black')
+        let boxBlack = document.querySelector('.box-black')
+        bntBlack.addEventListener('click', () => {
+            boxBlack.classList.toggle('black')
+        })
+    </script>
+</body>
+
+</html>
